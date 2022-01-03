@@ -7,7 +7,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/bg_two"
     tools:context=".Activities.ActivityContent">
 
 
@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:fontFamily="@font/riot"
                 android:textSize="@dimen/_10sdp"
                 android:text="@string/list_title"/>
@@ -163,10 +163,9 @@
                 android:id="@+id/next"
                 android:layout_width="@dimen/_40sdp"
                 android:layout_height="@dimen/_40sdp"
-                android:layout_alignParentBottom="true"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/ic_next"
-                />
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/ic_next" />
 
             <com.arrasate.drawclimberguide.uno.UI.ImageViews
                 android:id="@+id/preview"
