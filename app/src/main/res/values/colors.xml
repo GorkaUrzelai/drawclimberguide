@@ -8,12 +8,12 @@
     <color name="black">@android:color/black</color>
 
     <color name="color_progressBackground">#4E4441</color>
-    <color name="color_progressTint">#7A1414</color>
-    <color name="color_text_list">#EC0000</color>
-    <color name="color_searching_list">#AF0808</color>
+    <color name="color_progressTint">#1A4C97</color>
+    <color name="color_text_list">#1B4497</color>
+    <color name="color_searching_list">#9299BA</color>
 
-    <color name="color_info">#717171</color>
-    <color name="color_pop">#151312</color>
+    <color name="color_info">#DF7756</color>
+    <color name="color_pop">#DA4E09</color>
     <color name="color_pop_rate">#170800</color>
 
     <color name="color_ad">#AF0808</color>

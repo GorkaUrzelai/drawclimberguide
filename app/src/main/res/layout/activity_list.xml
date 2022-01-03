@@ -62,9 +62,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:gravity="center"
                 android:orientation="vertical"
-                android:visibility="gone"
-                android:gravity="center">
+                android:visibility="gone">
 
                 <com.wang.avi.AVLoadingIndicatorView
                     style="@style/AVLoadingIndicatorView"
@@ -72,18 +72,17 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_centerInParent="true"
                     app:indicatorColor="@color/color_searching_list"
-                    app:indicatorName="LineSpinFadeLoaderIndicator"
-                    />
+                    app:indicatorName="LineSpinFadeLoaderIndicator" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:textColor="@color/color_searching_list"
-                    android:fontFamily="@font/riot"
-                    android:textSize="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_10sdp"
-                    android:text="@string/searching_list"/>
+                    android:fontFamily="@font/riot"
+                    android:text="@string/searching_list"
+                    android:textColor="@color/color_searching_list"
+                    android:textSize="@dimen/_10sdp" />
 
 
             </LinearLayout>
@@ -93,39 +92,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
+                android:gravity="center"
                 android:orientation="vertical"
-                android:visibility="gone"
-                android:gravity="center">
+                android:visibility="gone">
 
                 <com.arrasate.drawclimberguide.uno.UI.ImageViews
                     android:layout_width="@dimen/_25sdp"
                     android:layout_height="@dimen/_25sdp"
-                    android:src="@drawable/ic_failed"
                     android:layout_centerVertical="true"
-                    />
+                    android:src="@drawable/ic_failed" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerInParent="true"
-                    android:textColor="@color/color_searching_list"
-                    android:fontFamily="@font/riot"
-                    android:textSize="@dimen/_10sdp"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:layout_marginBottom="@dimen/_8sdp"
-                    android:text="@string/searching_list_failed"/>
+                    android:fontFamily="@font/riot"
+                    android:text="@string/searching_list_failed"
+                    android:textColor="@color/color_searching_list"
+                    android:textSize="@dimen/_10sdp" />
 
                 <Button
                     android:id="@+id/tryAgain"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/searching_list_try"
                     android:background="@drawable/btn_try"
                     android:fontFamily="@font/riot"
                     android:paddingLeft="@dimen/_25sdp"
                     android:paddingRight="@dimen/_25sdp"
-                    android:textSize="@dimen/_8sdp"
-                    android:textColor="@color/white"/>
+                    android:text="@string/searching_list_try"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_8sdp" />
 
 
             </LinearLayout>
@@ -134,9 +132,8 @@
                 android:id="@+id/recyclerviewTips"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:visibility="gone"
-                android:layout_margin="@dimen/_4sdp"/>
-
+                android:layout_margin="@dimen/_4sdp"
+                android:visibility="gone" />
 
 
         </RelativeLayout>

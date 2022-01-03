@@ -36,7 +36,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/_10sdp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:fontFamily="@font/riot"
                 android:textSize="@dimen/_14sdp"
                 android:text="@string/splash_title"/>
@@ -70,7 +70,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/_8sdp"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:fontFamily="@font/riot"
                 android:text="@string/splash_loading"
                 android:textSize="@dimen/_7sdp" />

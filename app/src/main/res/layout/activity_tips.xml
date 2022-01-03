@@ -37,7 +37,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:fontFamily="@font/riot"
                 android:textSize="@dimen/_10sdp"
                 android:text="@string/list_title"/>
