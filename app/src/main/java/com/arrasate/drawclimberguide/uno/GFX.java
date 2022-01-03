@@ -63,7 +63,7 @@ public class GFX {
     // your link privacy policy her :
     public static String PrivacyPolicy = "";
     // your develper google play store name :
-    public static String DeveloperName = "VOODOO";
+    public static String DeveloperName = "sonidosdecochesymotores";
 
     // If you want to use Music inside App set : true.
     public static boolean useMusic = true ;

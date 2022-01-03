@@ -294,12 +294,12 @@
                                     android:id="@+id/privacy_text"
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
-                                    android:textColor="@color/color_text_list"
+                                    android:layout_marginLeft="@dimen/_8sdp"
                                     android:fontFamily="@font/riot"
                                     android:gravity="center"
-                                    android:layout_marginLeft="@dimen/_8sdp"
-                                    android:textSize="@dimen/_8sdp"
-                                    android:text="Visit"/>
+                                    android:text="Visit"
+                                    android:textColor="@color/color_text_list"
+                                    android:textSize="@dimen/_8sdp" />
 
 
                             </RelativeLayout>
@@ -406,12 +406,12 @@
                                     android:id="@+id/moreapps"
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
-                                    android:textColor="@color/white"
+                                    android:layout_marginLeft="@dimen/_8sdp"
                                     android:fontFamily="@font/riot"
                                     android:gravity="center"
-                                    android:layout_marginLeft="@dimen/_8sdp"
-                                    android:textSize="@dimen/_8sdp"
-                                    android:text="Discover"/>
+                                    android:text="Discover"
+                                    android:textColor="@color/white"
+                                    android:textSize="@dimen/_8sdp" />
 
 
                             </RelativeLayout>
