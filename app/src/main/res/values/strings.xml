@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">DRAW CLIBER GUIDE</string>
+    <string name="app_name">DRAW CLIMBER GUIDE</string>
 
-    <string name="splash_title">DRAW CLIBER GUIDE</string>
+    <string name="splash_title">DRAW CLIMBER GUIDE</string>
     <string name="splash_loading">Loading</string>
 
     <string name="list_title">LIST TIPS</string>
